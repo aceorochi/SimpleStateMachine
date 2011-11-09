@@ -1,4 +1,4 @@
-# Simple State Machine
+# Simple State Machine for Objective C & Cocoa
 
 A *very* simple state machine implementation in Objective C. States are identified by strings and don't carry
 information about what other states can the machine jump to.  This behavior can be added by the machine's
@@ -36,4 +36,4 @@ a class should implement any of the following @ptional methods:
 
 ##Assumptions
 
-This code assumes *ARC*. It also requires my additions to NSObject: _NSObject+FRRObject_.
+This code assumes *ARC*. It also requires my additions to NSObject: [_NSObject+FRRObject_] (https://github.com/frr149/categories).
